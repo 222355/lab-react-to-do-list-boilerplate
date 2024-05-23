@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { useReducer, useState } from "react";
+import { useReducer } from "react";
 
 function App() {
   const initialTodo = {
