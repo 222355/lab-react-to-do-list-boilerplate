@@ -7,6 +7,7 @@ function App() {
     inputValue: "",
     tasks: [],
   };
+
   const todoReducer = (state, action) => {
     switch (action.type) {
       case "SET_INPUT":
